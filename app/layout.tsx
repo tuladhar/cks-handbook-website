@@ -11,8 +11,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "CKS Handbook - Your Guide to Kubernetes Security Certification",
-  description: "Comprehensive preparation materials for the Certified Kubernetes Security Specialist (CKS) exam.",
+  title: "CKS Handbook - 2nd Edition",
+  description: "The essential guide for mastering Kubernetes security and passing the CKS exam with confidence.",
     generator: 'v0.dev'
 }
 
