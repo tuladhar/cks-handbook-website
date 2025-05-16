@@ -319,7 +319,7 @@ export default function Home() {
           <div className="bg-gradient-to-r from-purple/20 to-blue/20 rounded-lg p-8 border border-purple/30">
             <h3 className="text-2xl font-bold text-white mb-4">Ready to become Certified Kubernetes Security Specialist?</h3>
             <p className="text-lg mb-6 text-gray-300">
-              Get your copy today and start your journey to becoming a kubernetes security expert.
+              Get your copy today and start your journey to becoming a Kubernetes security expert.
             </p>
             <Link
               href="https://ptuladhar.gumroad.com/l/cks-handbook"
