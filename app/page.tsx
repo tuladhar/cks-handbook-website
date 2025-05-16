@@ -3,6 +3,7 @@ import Link from "next/link"
 import { CheckCircle, Download } from "lucide-react"
 import { articles } from "@/data/articles"
 import { ArticleCarousel } from "@/components/article-carousel"
+import { NewsletterForm } from "@/components/newsletter-form"
 
 export default function Home() {
   return (
@@ -71,7 +72,7 @@ export default function Home() {
         </div>
 
         {/* Chapters */}
-        <section className="mb-20 -rotate-1">
+        <section className="mb-20">
           <h2 className="text-3xl font-bold mb-8 text-center text-gradient">Chapters</h2>
 
           <div className="grid md:grid-cols-2 gap-4">
@@ -138,6 +139,12 @@ export default function Home() {
           <ArticleCarousel articles={articles} />
         </section>
 
+        {/* Newsletter Signup Form - NEW SECTION 
+        <section className="mb-20">
+          <NewsletterForm />
+        </section>
+        */}
+
         {/* One-page preview */}
         <section className="mb-20">
           <h2 className="text-center text-3xl font-bold mb-8 text-gradient">Book sample. No email address needed.</h2>
@@ -175,7 +182,7 @@ export default function Home() {
               </Link>
             </div>
 
-            <p className="text-center text-gray-400 mt-4">Just at $14.99</p>
+            <p className="text-center text-gray-400 mt-4">Just at $15.00</p>
           </div>
         </section>
 
@@ -205,7 +212,7 @@ export default function Home() {
         </section>
 
         {/* Author Bio - Updated with new profile picture */}
-        <section className="mb-20 rotate-2">
+        <section className="mb-20 rotate-1">
           <h2 className="text-3xl font-bold mb-8 text-gradient">Author</h2>
 
           <div className="bg-dark-blue/50 rounded-lg overflow-hidden border border-purple/20">
@@ -283,7 +290,7 @@ export default function Home() {
                       className="text-white hover:text-purple-light transition-colors"
                     >
                       <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                        <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085a4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
                       </svg>
                     </Link>
                     <Link
