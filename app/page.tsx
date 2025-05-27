@@ -75,7 +75,7 @@ export default function Home() {
         <section className="mb-20">
           <h2 className="text-3xl font-bold mb-8 text-center text-gradient">Chapters</h2>
 
-          <div className="grid md:grid-cols-2 gap-4">
+          <div className="grid md:grid-cols-2 gap-4 rounded-2xl">
             {[
               { num: "1", title: "Exam Environment", desc: "Exam UI, terminals, applications, exam scores." },
               { num: "2", title: "Quick References", desc: "Quick access and references." },
@@ -166,7 +166,7 @@ export default function Home() {
                 href="https://github.com/tuladhar/certified-kubernetes-security-specialist-handbook/blob/main/Certified%20Kubernetes%20Security%20Specialist%20(CKS)%20Handbook%20-%20First%20Edition%20(Sample).pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 bg-purple/20 hover:bg-purple/30 text-white px-4 py-2 rounded-md transition-colors"
+                className="flex items-center gap-2 bg-purple/20 hover:bg-purple/30 text-white px-4 py-2 rounded-2xl transition-colors"
               >
                 <Download className="h-5 w-5" />
                 <span>Download sample</span>
@@ -191,7 +191,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-8 text-gradient">FAQ</h2>
 
           <div className="space-y-6">
-            <div className="bg-dark-blue/50 rounded-lg p-6 border border-purple/20 hover:border-purple transition-colors">
+            <div className="bg-dark-blue/50 rounded-2xl p-6 border border-purple/20 hover:border-purple transition-colors">
               <h3 className="font-semibold text-xl mb-2 text-white">Which versions of CKS exam is covered?</h3>
               <p className="text-gray-300">
                 The 2nd edition of the book covers the latest CKS exam changes introduced in{" "}
@@ -215,7 +215,7 @@ export default function Home() {
         <section className="mb-20 rotate-1">
           <h2 className="text-3xl font-bold mb-8 text-gradient">Author</h2>
 
-          <div className="bg-dark-blue/50 rounded-lg overflow-hidden border border-purple/20">
+          <div className="bg-dark-blue/50 rounded-2xl overflow-hidden border border-purple/20">
             <div className="grid md:grid-cols-3 gap-6">
               <div className="md:col-span-1 p-6 flex justify-center items-center">
                 <div className="relative">
@@ -316,14 +316,14 @@ export default function Home() {
 
         {/* Final CTA */}
         <section className="text-center mb-16">
-          <div className="bg-gradient-to-r from-purple/20 to-blue/20 rounded-lg p-8 border border-purple/30">
+          <div className="bg-gradient-to-r from-purple/20 to-blue/20 rounded-2xl p-8 border border-purple/30">
             <h3 className="text-2xl font-bold text-white mb-4">Ready to become Certified Kubernetes Security Specialist?</h3>
             <p className="text-lg mb-6 text-gray-300">
               Get your copy today and start your journey to becoming a Kubernetes security expert.
             </p>
             <Link
               href="https://ptuladhar.gumroad.com/l/cks-handbook"
-              className="bg-purple-dark hover:bg-purple text-white px-4 py-2 rounded-md font-medium text-2xl transition-colors shadow-glow inline-block"
+              className="bg-purple-dark hover:bg-purple text-white px-4 py-2 rounded-2xl font-medium text-2xl transition-colors shadow-glow inline-block"
             >
               Buy a copy
             </Link>
