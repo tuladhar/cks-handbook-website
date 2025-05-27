@@ -112,7 +112,7 @@ export default function Home() {
             ].map((chapter, index) => (
               <div
                 key={index}
-                className="bg-dark-blue/50 rounded-lg p-4 border border-purple/20 hover:border-purple transition-colors"
+                className="bg-dark-blue/50 rounded-2xl p-4 border-purple/20 hover:border-purple transition-colors"
               >
                 <div className="flex items-start gap-3">
                   <div className="bg-purple/20 rounded-full w-8 h-8 flex items-center justify-center text-purple-light flex-shrink-0">
@@ -199,7 +199,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-dark-blue/50 rounded-lg p-6 border border-purple/20 hover:border-purple transition-colors">
+            <div className="bg-dark-blue/50 rounded-2xl p-6 border border-purple/20 hover:border-purple transition-colors">
               <h3 className="font-semibold text-xl mb-2 text-white">
                 Is this book good for someone just preparing for CKS exam?
               </h3>
