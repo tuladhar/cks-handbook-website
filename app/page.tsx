@@ -212,7 +212,7 @@ export default function Home() {
         </section>
 
         {/* Author Bio - Updated with new profile picture */}
-        <section className="mb-20 rotate-1">
+        <section className="mb-20">
           <h2 className="text-3xl font-bold mb-8 text-gradient">Author</h2>
 
           <div className="bg-dark-blue/50 rounded-2xl overflow-hidden border border-purple/20">
