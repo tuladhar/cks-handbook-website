@@ -10,7 +10,4 @@ The essential guide for mastering Kubernetes security and passing the CKS exam w
 - Practical hands-on, real exam focus - no fluff.
 - Prepare smartly and pass the exam with flying colors.
 
-Get the book: https://cks.purutuladhar.com
-
-## Development
-This repository is sync with deployed chats on [v0.dev](https://v0.dev).
+**Get the book:** https://cks.purutuladhar.com

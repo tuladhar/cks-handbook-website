@@ -9,6 +9,15 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: "6",
+    title: "Reduce Image Footprint: Must-know for CKS exam",
+    excerpt:
+      "",
+    thumbnail: "https://media.licdn.com/dms/image/v2/D4D12AQFQVrj7kEyFaA/article-cover_image-shrink_720_1280/B4DZcOJyPzG8AI-/0/1748289138313?e=2147483647&v=beta&t=Jz-Qf_SGW3zuxNPkdg-Lvp8B1g3Nz0GoVLH9D27llMM",
+    linkedinUrl: "https://www.linkedin.com/pulse/reduce-image-footprint-must-know-cks-exam-puru-tuladhar-oaewf/",
+    date: "May 27, 2025",
+  },
+  {
     id: "1",
     title: "Falco: Getting hands-on for CKS exam",
     excerpt:
@@ -52,5 +61,5 @@ export const articles: Article[] = [
     thumbnail: "https://media.licdn.com/dms/image/v2/D4D12AQGkIFV4qxO5hw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1736765086852?e=1752710400&v=beta&t=X-cStfivzwQWHRzJxBTiIR4lHis4UmvQzZAxSgWEIBU",
     linkedinUrl: "https://www.linkedin.com/pulse/cilium-everything-you-need-know-cks-puru-tuladhar-ldpdf?trackingId=NDMzz3bzSL%2BtABWE1aYqvg%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_content_view%3BtTXFeP4pRdmAgvPWgtIyaw%3D%3D",
     date: "September 18, 2023",
-  },
+  }
 ]
