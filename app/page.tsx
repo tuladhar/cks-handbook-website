@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { CheckCircle, Download, ShoppingCart } from "lucide-react"
+import { CheckCircle, Download } from "lucide-react"
 import { articles } from "@/data/articles"
 import { ArticleCarousel } from "@/components/article-carousel"
 import { NewsletterForm } from "@/components/newsletter-form"
@@ -178,7 +178,7 @@ export default function Home() {
                 href="https://ptuladhar.gumroad.com/l/cks-handbook"
                 className="bg-purple-dark hover:bg-purple text-white px-4 py-2 rounded-2xl font-medium text-2xl transition-colors shadow-glow"
               >
-                <ShoppingCart />&nbsp;Buy a copy
+                Buy a copy
               </Link>
             </div>
 
@@ -325,7 +325,7 @@ export default function Home() {
               href="https://ptuladhar.gumroad.com/l/cks-handbook"
               className="bg-purple-dark hover:bg-purple text-white px-4 py-2 rounded-2xl font-medium text-2xl transition-colors shadow-glow inline-block"
             >
-              <ShoppingCart />&nbsp;Buy a copy
+              Buy a copy
             </Link>
           </div>
         </section>
