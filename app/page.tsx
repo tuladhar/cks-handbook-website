@@ -231,15 +231,15 @@ export default function Home() {
               </div>
               <div className="md:col-span-2 p-6">
                 <h3 className="text-2xl font-bold text-white mb-2">Puru Tuladhar</h3>
-                <p className="text-purple-light font-medium mb-4">CNCF Kubestronaut & AWS Certified Solution Architect</p>
+                <p className="text-purple-light font-medium mb-4">CNCF Kubestronaut</p>
 
                 <div className="space-y-4 text-gray-300">
                   <p>
-                    Hi, I'm Puru Tuladhar, the author of the CKS Handbook. I’ve been a DevOps engineer for nearly a decade, working extensively with Linux, Kubernetes, and AWS. I’m proud to be a CNCF Certified Kubestronaut—having earned all five Kubernetes certifications—and an AWS Certified Solutions Architect at both Associate and Professional levels.
+                    Hi, I’m Puru Tuladhar, author of the CKS Handbook. With nearly a decade as a DevOps engineer, I’ve worked deeply with Linux, Kubernetes, and AWS. I’m proud to hold all five Kubernetes certifications as a CNCF Certified Kubestronaut, and I’m an AWS Certified Solutions Architect at both Associate and Professional levels.
                   </p>
 
                   <p>
-                    My motivation for writing this book came from my own journey preparing for the Certified Kubernetes Security Specialist (CKS) exam. I found that many resources were either too theoretical or didn’t focus enough on practical, real-world security skills. I wanted to create a straightforward, hands-on guide that not only helps you pass the exam but also equips you to confidently secure Kubernetes clusters in your daily work.
+                    I wrote this book because of  <a href="linkedin.com/pulse/how-2-failure-turned-success-my-cks-exam-experience-puru-tuladhar-oniif/" target="_blank">my own journey</a>—full of challenges and learning moments. My goal was to build a clear, practical guide that not only helps you pass the exam but also makes you a stronger Kubernetes professional.
                   </p>
 
                   <div className="flex flex-wrap gap-2 mt-6">
