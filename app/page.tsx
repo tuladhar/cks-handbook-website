@@ -231,21 +231,15 @@ export default function Home() {
               </div>
               <div className="md:col-span-2 p-6">
                 <h3 className="text-2xl font-bold text-white mb-2">Puru Tuladhar</h3>
-                <p className="text-purple-light font-medium mb-4">Kubestronaut</p>
+                <p className="text-purple-light font-medium mb-4">CNCF Kubestronaut & AWS Certified Solution Architect</p>
 
                 <div className="space-y-4 text-gray-300">
                   <p>
-                    Hello there! I&apos;m Puru, a cloud and open-source expert who&apos;s been deep into Linux for 17
-                    years and playing around with AWS for the past 8 (yes, I&apos;m AWS certified!). Kubernetes has been
-                    my playground for about 5 years now, and I&apos;ve recently started exploring the exciting world of
-                    AI.
+                    Hi, I'm Puru Tuladhar, the author of the CKS Handbook. I’ve been a DevOps engineer for nearly a decade, working extensively with Linux, Kubernetes, and AWS. I’m proud to be a CNCF Certified Kubestronaut—having earned all five Kubernetes certifications—and an AWS Certified Solutions Architect at both Associate and Professional levels.
                   </p>
 
                   <p>
-                    I love programming, writing books and blogs, and giving back to the open-source and cloud-native
-                    communities. When I&apos;m not tinkering with code or cloud infrastructure, you&apos;ll probably
-                    find me sharing what I&apos;ve learned or contributing to projects that make tech better for
-                    everyone.
+                    My motivation for writing this book came from my own journey preparing for the Certified Kubernetes Security Specialist (CKS) exam. I found that many resources were either too theoretical or didn’t focus enough on practical, real-world security skills. I wanted to create a straightforward, hands-on guide that not only helps you pass the exam but also equips you to confidently secure Kubernetes clusters in your daily work.
                   </p>
 
                   <div className="flex flex-wrap gap-2 mt-6">
