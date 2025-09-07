@@ -31,7 +31,7 @@ export const articles: Article[] = [
     title: "Securing Kubernetes Secrets Management",
     excerpt:
       "Secrets in Kubernetes need special handling. Discover best practices for managing sensitive information in your Kubernetes environment.",
-    thumbnail: "/iamges/falco-1.png",
+    thumbnail: "/images/falco-1.png",
     linkedinUrl: "https://www.linkedin.com/pulse/falco-must-know-cks-exam-puru-tuladhar-f9tgf",
     date: "June 22, 2023",
   },
