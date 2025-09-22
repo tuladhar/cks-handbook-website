@@ -59,7 +59,7 @@ export const articles: Article[] = [
     excerpt:
       "Security Contexts define privilege and access control settings for Pods and Containers. Learn how to configure them properly.",
     thumbnail: "/images/cilium-1.png",
-    linkedinUrl: "https://www.linkedin.com/pulse/cilium-everything-you-need-know-cks-puru-tuladhar-ldpdf?trackingId=NDMzz3bzSL%2BtABWE1aYqvg%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_content_view%3BtTXFeP4pRdmAgvPWgtIyaw%3D%3D",
+    linkedinUrl: "https://www.linkedin.com/pulse/cilium-everything-you-need-know-cks-puru-tuladhar-ldpdf",
     date: "September 18, 2023",
   },
   {
@@ -68,7 +68,7 @@ export const articles: Article[] = [
     excerpt:
       "With the October 2024 CKS exam program updates, implementing Pod-to-Pod encryption using Cilium and Istio has become a key topic in the Minimizing Micro-services Vulnerability domain. In this exam series blog (you can find more blogs here), we'll cover Istio and everything you need to know about Istio traffic encryption for the exam. I also covered Cilium, which you can check out here.",
     thumbnail: "/images/istio.png",
-    linkedinUrl: "",
+    linkedinUrl: "https://www.linkedin.com/pulse/istio-must-know-certified-kubernetes-security-cks-exam-puru-tuladhar-dmhyf",
     date: "September 22, 2025",
   }
 ]
