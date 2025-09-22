@@ -19,7 +19,7 @@ export default function Home() {
             <div className="relative">
               <div className="absolute -inset-2 bg-gradient-to-r from-purple to-blue rounded-lg blur-md opacity-70"></div>
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-05-16%20at%2011.13.41%E2%80%AFPM-wBLMyNH263ROVl17iqRk2rdwP8L7kR.png"
+                src="/images/book-cover.png"
                 width={400}
                 height={550}
                 alt="CKS Handbook Cover"
