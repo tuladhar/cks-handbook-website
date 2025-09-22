@@ -154,7 +154,7 @@ export default function Home() {
               <div className="absolute -inset-2 bg-gradient-to-r from-purple to-blue rounded-lg blur-md opacity-50"></div>
               <Image
                 src="/images/cks-handbook-sample.png"
-                width={150}
+                width={250}
                 height={250}
                 alt="CKS Handbook Sample Page"
                 className="relative rounded-lg border border-purple/30"
