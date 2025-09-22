@@ -59,7 +59,7 @@ export default function Home() {
                 href="https://ptuladhar.gumroad.com/l/cks-handbook"
                 className="bg-purple-dark hover:bg-purple text-white px-4 py-2 rounded-lg font-medium text-2xl transition-colors shadow-glow"
               >
-                Get the book
+                → Get the book
               </Link>
               <div className="bg-gradient-to-r from-purple to-blue text-white rounded-full w-20 h-20 flex items-center justify-center shadow-glow rotate-12">
                 <div className="text-center">
