@@ -61,10 +61,10 @@ export default function Home() {
               >
                 → Get the book
               </Link>
-              <div className="bg-gradient-to-r from-purple to-blue text-white rounded-full w-20 h-20 flex items-center justify-center shadow-glow rotate-12">
+              <div className="bg-gradient-to-r from-purple to-blue text-white rounded-full w-20 h-20 flex items-center justify-center shadow-glow rotate-12" style="width: 100px; height: 100px;">
                 <div className="text-center">
                   <div className="text-sm">only</div>
-                  <div className="text-3xl font-bold">$15</div>
+                  <div className="text-3xl font-bold" style="font-size: 2.5em;">$15</div>
                 </div>
               </div>
             </div>
