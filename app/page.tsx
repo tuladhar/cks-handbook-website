@@ -64,7 +64,7 @@ export default function Home() {
               <div className="bg-gradient-to-r from-purple to-blue text-white rounded-full w-20 h-20 flex items-center justify-center shadow-glow rotate-12">
                 <div className="text-center">
                   <div className="text-sm">only</div>
-                  <div className="text-3xl font-bold">$19.99</div>
+                  <div className="text-xl font-bold">$19.99</div>
                 </div>
               </div>
             </div>
