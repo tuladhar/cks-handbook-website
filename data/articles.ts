@@ -77,7 +77,7 @@ export const articles: Article[] = [
     excerpt:
       "With the October 2024 CKS exam program updates, implementing Pod-to-Pod encryption using Cilium and Istio has become a key topic in the Minimizing Micro-services Vulnerability domain. In this exam series blog (you can find more blogs here), we'll cover Istio and everything you need to know about Istio traffic encryption for the exam. I also covered Cilium, which you can check out here.",
     thumbnail: "/images/kernel-hardening.png",
-    linkedinUrl: https://www.linkedin.com/pulse/kernel-hardening-app-armor-seccomp-must-know-cks-exam-puru-tuladhar-li89f/"",
+    linkedinUrl: "https://www.linkedin.com/pulse/kernel-hardening-app-armor-seccomp-must-know-cks-exam-puru-tuladhar-li89f/",
     date: "September 24, 2025",
   },
 ]
