@@ -64,7 +64,7 @@ export default function Home() {
               <div className="bg-gradient-to-r from-purple to-blue text-white rounded-full w-20 h-20 flex items-center justify-center shadow-glow rotate-12">
                 <div className="text-center">
                   <div className="text-sm">only</div>
-                  <div className="text-xl font-bold">$19.99</div>
+                  <div className="text-xl font-bold">$15</div>
                 </div>
               </div>
             </div>
@@ -182,7 +182,7 @@ export default function Home() {
               </Link>
             </div>
 
-            <p className="text-center text-gray-400 mt-4">Just at $19.99</p>
+            <p className="text-center text-gray-400 mt-4">Just at $15</p>
           </div>
         </section>
 
